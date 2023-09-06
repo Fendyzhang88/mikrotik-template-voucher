@@ -1,0 +1,44 @@
+
+<!--- Salin kode di bawah ini ke kode HTML RAW -->
+
+<div class="container bg-dark border-1 border-dark">
+  <div class="row">
+  	<div class="col-9 border-1 border-dark">
+	<div class="row">
+		<div class="col-10 pt-1">
+			<p class="f13 bold text-center border-bottom-1 border-white text-white pb-1">VOUCHER HOTSPOT</p>
+		</div>
+	</div>
+	<div class="row mt-2 ml-2 mr-2">
+		<div class="col-5 text-center p-1">
+			<p class="f11 text-white">USERNAME</p>
+			<p class="f13 text-gray bg-light pt-1 pb-1 rounded">%u_username%</p>
+		</div>
+		<div class="col-5 text-center p-1">
+			<p class="f11 text-white">PASSWORD</p>
+			<p class="f13 text-gray bg-light pt-1 pb-1 rounded">%u_password%</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-10 text-center mb-1">
+			<h5 class="text-white"><script>rupiah('%u_moneyPaid%');</script></h5>
+		</div>
+	</div>
+	<div class="row bg-light ml-3 mr-3">
+		<div class="col-5 p-1 text-dark">
+			<p class="f10 pl-2">Masa aktif</p>
+			<p class="f10 pl-2">Durasi</p>
+			<p class="f10 pl-2">Kuota</p>
+		</div>
+		<div class="col-5 p-1 text-dark">
+			<p class="f10"><span class="pr-2">:</span><script>netme_id('%u_timeLeft% ');</script></p>
+			<p class="f10"><span class="pr-2">:</span><script>netme_id('%u_limitUptime%');</script></p>
+			<p class="f10"><span class="pr-2">:</span>%u_limitDownload%</p>
+		</div>
+	</div>
+	</div>
+	<div class="col-1 bg-light border-top-2 border-dark">
+		<h3 class="rotate-r90 mt-5 text-dark">NetMe.ID</h3>
+	</div>
+  </div>
+</div>
